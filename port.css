@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: #000;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    color: red;
+}
+.logo span{
+    text-decoration: white;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Home Section */
+#home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3rem;
+}
+
+.content h1 span {
+    color: red;
+}
+
+.containerr h1 span {
+    text-decoration: red;
+}
+.content p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.profile-photo {
+    width: 200px; /* Adjust size as needed */
+    border-radius: 70%; /* Makes the photo circular */
+    margin-top: 20px;
+}
+.about{
+
+    text-align: center;
+    text-decoration: #fff;
+}
+bodyy {
+    background-color: #111;
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.containerr {
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: black;
+}
+#tittle {
+      width: 50;
+      height: 20;
+}
+
+img {
+    
+    width: 200px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: #e74c3c; /* Replace with your desired color */
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+#ad{
+    align-items: center;
+}
+li {
+    margin-bottom: 10px;
+}
+bodyy {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .card{
+    
+    border-radius: 10px;
+    border-color: rgba(248, 244, 244, 0.904) ;
+    box-shadow: 0 4px 8px rgba(250, 249, 249, 0.1);
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  bodyy :hover{
+    background-color: #aca920;
+  }
+  .card button {
+       border-radius: 30px;
+       font-weight: 500;
+       font-size: 1.1em;
+       background-color: sandybrown;
+      
+       
+  }
+  .card h2 {
+    font-size: 1.75em;
+    color: red;
+    margin: 0 0 10px;
+  }
+  .card h4 {
+    font-size: 1.1em;
+    color: burlywood;
+    margin: 0 0 10px;
+  }
+  bodyyy {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #222;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.contact-info .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.cv-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff0055;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cv-button:hover {
+    background-color: #e6004c;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ff0055;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #e6004c;
+}
+
+ 
